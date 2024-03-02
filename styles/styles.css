@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --background-color: rgb(55, 27, 88);
+    --cor-secundaria: #4C3575;
+    --cor-terciaria: #7858A6;
+    --cor-quartenaria: #8c65c2;
+    --branco: #ffffff;
+    --fonte-primária: "Montserrat", sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will center the container vertically on the page */
+    background-color: var(--background-color);
+}
+
+.titulo{
+    font-family: var(--fonte-primária);
+    font-size: 34px;
+    font-weight: 700;
+    padding: 2em 0 1em 0;
+    color: var(--cor-quartenaria)
+}
+
+.cotainer__caixa {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    border-radius: 20px;
+    box-shadow: 4px 5px 5px 5px black;
+}
+
+.cotainer__caixa-campo{
+    height: 2.3em;
+    width: 60%;
+    margin: 6px;
+    border-radius: 2px;
+    background-color: var(--cor-terciaria);
+}
+
+.botao{
+    font-weight: 500;
+    font-family: var(--fonte-primária);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1em 7em;
+    text-decoration: none;
+    background-color: var(--cor-quartenaria);
+    color: var(--branco);
+}
+
+.botao:hover{
+    padding:  1em 8em;
+    background-color: var(--cor-terciaria);
+}
+
+::-webkit-input-placeholder{
+    text-align: center;
+    font-family: var(--fonte-primária);
+    color: var(--branco)
+}
+
