@@ -1,1 +1,1 @@
-Tela simple de login feita em pouco tempo
+Tela simples de login feita em pouco tempo
